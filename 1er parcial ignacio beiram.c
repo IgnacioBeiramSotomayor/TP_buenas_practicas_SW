@@ -16,14 +16,12 @@ struct redvial{
 void ingresardatos(){
 	printf("Ingrese la cantidad de trafico\n");
 	printf("Trafico:");
-	scanf("%d", &Trafico);
-	if(Trafico<0 || Trafico>100){
-		printf("El trafico no puede ser negativo o mayor a 100\n");
-		return;
-	}
+	
+	
 }
 int main(int argc, char *argv[]) {
 	printf("Segundo commit\n");
+	printf("Tercer coommit, el codigo se ejecuta\n");
 	int opcion=0;
 	int contador=0;
 	do{
@@ -36,7 +34,7 @@ int main(int argc, char *argv[]) {
 		switch(opcion){
 		case 1:
 			contador++;
-			ingresardatos(redvial,semaforo);
+			
 			break;
 		case 2:
 			if(contador==0){

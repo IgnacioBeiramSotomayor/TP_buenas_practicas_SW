@@ -23,6 +23,7 @@ void ingresardatos(){
 	}
 }
 int main(int argc, char *argv[]) {
+	printf("Segundo commit\n");
 	int opcion=0;
 	int contador=0;
 	do{
